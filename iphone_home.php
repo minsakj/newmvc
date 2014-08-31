@@ -20,9 +20,9 @@ echo "<br /> Session ID: $new_sessionid<br /> ";
 date_default_timezone_set("Europe/London");
 echo date("H:i:s  d/m/Y <br />");
 
-$name="vavoommo_";
-$pas="Minsakj123!!";
-$dbname="vavoommo_phptest";
+$name="";
+$pas="";
+$dbname="";
 $con=mysql_connect("localhost",$name,$pas);
 mysql_select_db($dbname,$con);
 
